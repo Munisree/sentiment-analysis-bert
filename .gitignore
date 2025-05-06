@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit and logs
+.streamlit/
+logs/
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Result/processed data files (can regenerate)
+*.csv
+!sample_reviews.csv
+!sample_reviews_with_sentiment.csv
+
+# Cache and temporary files
+*.tmp
+*.temp
+*.bak
+
+# Pytest cache
+.pytest_cache/
+
+# VS Code settings
+.vscode/
